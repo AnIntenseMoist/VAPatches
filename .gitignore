@@ -5,5 +5,7 @@
 
 # ignore dlls in build except ours
 /VAPatches/build/*/*.dll
-!**/VAPatches.dll
-/VAPatches
+!/VAPatches/build/Release/VAPatches.dll
+/VAPatches/bin/Debug
+/VAPatches/.vs
+/VAPatches/bin/Release
